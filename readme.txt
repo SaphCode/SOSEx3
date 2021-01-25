@@ -8,12 +8,13 @@ A,B,C 1-4 in progress
 to do: C 5-8 & Summary
 
 To get the input data for the somtoolbox, open the notebook with jupyter,
-depending on how large you want your input to be (can try normalization too,
-commented at the moment), change the num_images (4th last cell),
+depending on how large you want your input to be change the num_images (4th last cell),
 save the histogram in the last cell under a new name (for report)
 and run the SOMTrainer with:
  ./somtoolbox.sh GrowingSOM [path/to/]som.prop // .bat windows, .sh linux
 with this readme I'll upload a sample som.prop file, it is also described in report
+
+after training copy properties file you used to the map directory, so we know what settings were used
 
 Analyse with:
 ./somtoolbox.sh SOMViewer -u /path/to/file.unit.gz -w /path/to/file.wgt.gz --dw /path/to/file.dwm.gz
@@ -21,3 +22,9 @@ Analyse with:
 
 another important file: (description of som.prop)
 http://www.ifs.tuwien.ac.at/dm/somtoolbox/examples/PROPERTIES
+
+guidelines: iterations ~ 100*input samples
+size: see report or slides
+
+currently running about 20.000 samples, with 20x20 map,
+found someone on kaggle doing 70x70 with 500 samples, ... idk what to do, ill just blindly do slides

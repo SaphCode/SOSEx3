@@ -1,5 +1,5 @@
-workingDirectory=E:\\Programming\\University\\SOS\\Ex3\\SOM
-outputDirectory=E:\\Programming\\University\\SOS\\Ex3\\SOM
+workingDirectory=E:\\Programming\\University\\SOS\\Ex3bak\\SOM
+outputDirectory=E:\\Programming\\University\\SOS\\Ex3bak\\SOM
 namePrefix=test
 vectorFileName=vector.in
 sparseData=no
@@ -8,13 +8,13 @@ templateFileName=vector.tv
 #cacheSize=1
 
 randomSeed=333
-xSize=25
-ySize=25
-learnRate=0.1
+xSize=20
+ySize=20
+#learnRate=0.1
 #sigma=12
-#tau=1
-#metricName=at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
-numIterations=7000000
+tau=1
+metricName=at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
+numIterations=2000000
 
 # 3d. Miscellaneous SOM properties
-usePCA=no
+usePCA=yes
