@@ -1,0 +1,20 @@
+workingDirectory=/Users/kk/Dropbox/Studium/MSc/WS20/SO-SYS/EX3/SOSEx3/experiments/wrong-scaled
+outputDirectory=/Users/kk/Dropbox/Studium/MSc/WS20/SO-SYS/EX3/SOSEx3/experiments/wrong-scaled
+namePrefix=wrongly-scaled
+vectorFileName=vector.in
+sparseData=no
+isNormalized=yes
+templateFileName=vector.tv
+#cacheSize=1
+
+randomSeed=333
+xSize=81
+ySize=81
+learnRate=0.85
+sigma=21
+tau=1
+metricName=at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
+numIterations=130000
+
+# 3d. Miscellaneous SOM properties
+usePCA=yes

@@ -1,0 +1,37 @@
+$TYPE som
+$GRID_TOPOLOGY planar
+$GRID_LAYOUT rectangular
+$XDIM 81
+$YDIM 81
+$ZDIM 1
+$VEC_DIM 784
+$STORAGE_DATE 26/01/2021, 20:55
+$TRAINING_TIME 
+$LEARNRATE_TYPE exponential
+$LEARNRATE_INIT 0.85
+$NEIGHBORHOOD_TYPE exponential
+$NEIGHBORHOOD_INIT 21.0
+$RAND_INIT 333
+$ITERATIONS_TOTAL 130000
+$NR_TRAINVEC_TOTAL 700
+$ADAPTIVE_COORDINATES_THRESHOLD 
+$VEC_NORMALIZED false
+$QUANTERROR_MAP <error receiving value: Quality measure with name mqe not found.>
+$QUANTERROR_VEC <error receiving value: Quality measure with name mqe not found.>
+$URL_TRAINING_VEC /Users/kk/Dropbox/Studium/MSc/WS20/SO-SYS/EX3/SOSEx3/experiments/wrong-scaled/vector.in
+$URL_TRAINING_VEC_DESCR 
+$URL_WEIGHT_VEC /Users/kk/Dropbox/Studium/MSc/WS20/SO-SYS/EX3/SOSEx3/experiments/wrong-scaled/wrongly-scaled.wgt
+$URL_QUANTERR_MAP 
+$URL_MAPPED_INPUT_VEC 
+$URL_MAPPED_INPUT_VEC_DESCR 
+$URL_UNIT_DESCR /Users/kk/Dropbox/Studium/MSc/WS20/SO-SYS/EX3/SOSEx3/experiments/wrong-scaled/wrongly-scaled.unit
+$URL_TEMPLATE_VECTOR /Users/kk/Dropbox/Studium/MSc/WS20/SO-SYS/EX3/SOSEx3/experiments/wrong-scaled/vector.tv
+$URL_DATA_WINNER_MAPPING /Users/kk/Dropbox/Studium/MSc/WS20/SO-SYS/EX3/SOSEx3/experiments/wrong-scaled/wrongly-scaled.dwm
+$URL_CLASS_INFO 
+$URL_LABELS 
+$METRIC at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
+$LAYER_REVISION $Revision: 4300 $
+$DESCRIPTION 
+$AVAILABLE_VIS 
+$DATA_TYPE unknown
+$DATA_DIM 
